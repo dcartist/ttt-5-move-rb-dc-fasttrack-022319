@@ -14,7 +14,7 @@ end
 
 def move(board, user_input, player)
 if player == nil
-player = x
+player = "x"
 end
 board[user_input] = player
 end
