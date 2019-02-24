@@ -15,9 +15,11 @@ end
 def move(board, user_input, player)
 #finding if player
 
-#Adding player to X if default
+#Adding player to X if no player was selected
 if player == nil
 player = "x"
 end
+
+#adding player to the board
 board[user_input] = player
 end
