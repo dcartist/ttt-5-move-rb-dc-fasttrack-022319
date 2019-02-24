@@ -13,6 +13,5 @@ return user_input.to_i - 1
 end
 
 def move(board, user_input, player)
-
 board[user_input] = player
 end
