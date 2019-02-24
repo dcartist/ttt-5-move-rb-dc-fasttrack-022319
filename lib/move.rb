@@ -12,14 +12,7 @@ def input_to_index(user_input)
 return user_input.to_i - 1
 end
 
-def move(board, user_input, player)
-#finding if player
-
-#Adding player to X if no player was selected
-if player == nil
-player = "x"
-end
-
+def move(board, user_input, player = "x")
 #adding player to the board
 board[user_input] = player
 end
